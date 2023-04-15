@@ -38,5 +38,5 @@ $ (venv) pip install -r requirements.txt
 - [X] 분류 문제([타이타닉 생존자 예측](https://www.kaggle.com/c/titanic))
 - [ ] 시계열 문제
 
-### 참고한 Repository
-- https://github.com/sigmadream/practice-analysis
+### 참고한 GitHub Repository
+- [sigmadream/practice-analysis](https://github.com/sigmadream/practice-analysis)
