@@ -5,32 +5,38 @@
 ## 설정
 * Python <= `3.10.10`
 * `numpy`, `pandas`, `matplotlib`는 필수적으로 설치해주세요.
-* `ipynb`를 위해서 `JupyterLab`도 함께
+* 고급 시각화를 위해서 `plotly`도 병행해서 사용
+* 회귀분석을 위해서 `xgboost`, `Optuna`를 활용
+* `ipynb`를 위해서 `JupyterLab`도 함께 설치
+* `requirements.txt` 파일을 참고해서 설치 
+
 ```shell
 $ python -m venv venv
+# for Windows
 $ .\venv\Scripts\activate
+# for Linux/macOS
+$ source ./venv/bin/activate
 $ (venv) pip install -r requirements.txt
 ```
+
+## 사용된 패키지 목록
+* [numpy](https://numpy.org/)
+* [pandas](https://pandas.pydata.org/)
+* [seaborn](https://seaborn.pydata.org/)
+* [plotly](https://plotly.com/python/)
+* [jupyterlab](https://jupyterlab.readthedocs.io/en/stable/)
+* [statsmodels](https://www.statsmodels.org/stable/index.html)
+* [scikit-learn](https://scikit-learn.org/)
+* [xgboost](https://xgboost.readthedocs.io/en/stable/)
+* [optuna](https://optuna.readthedocs.io/en/stable/)
+* [finance-datareader](https://github.com/financedata-org/FinanceDataReader)
+* [prophet](https://facebook.github.io/prophet/docs/quick_start.html)
+* [pycountry](https://github.com/flyingcircusio/pycountry)
+
 ### TODO 
-- [ ] 회귀 문제(캘리포니아 집 값 데이터)
-- [ ] 분류 문제(타이타닉 생존자 예측, Kaggle)
-- [ ] 시계열 문제(문제 탐색 중)
+- [X] 회귀 문제([캘리포니아 집 값 데이터](http://lib.stat.cmu.edu/datasets/))
+- [X] 분류 문제([타이타닉 생존자 예측](https://www.kaggle.com/c/titanic))
+- [ ] 시계열 문제
 
-# 2023.04.06
-## 프로젝트 시작 시 주의사항
-
-## 파일명과 폴더구조에 대해서
-1. 가능하면 영어로 사용
-2. 알려진 폴더 구조를 사용
-
-## 매개변수
-1. 위치
-2. 디폴트 매개변수
-3. 이름
-
-## 리스트 vs 튜플
-1. 튜플 -> 불변
-
-### 데이터 분석 => Pandas => 데이터 전처리
-### 머신러닝 => 사이킷런 => 회귀/분류 => 기울기랑 절편
-### 딥러닝 => TF => 회귀/분류 => 기울기랑 절편
+### 참고한 Repository
+- https://github.com/sigmadream/practice-analysis
