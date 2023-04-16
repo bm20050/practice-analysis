@@ -36,7 +36,7 @@ $ (venv) pip install -r requirements.txt
 ### TODO 
 - [X] 회귀 문제([캘리포니아 집 값 데이터](http://lib.stat.cmu.edu/datasets/))
 - [X] 분류 문제([타이타닉 생존자 예측](https://www.kaggle.com/c/titanic))
-- [ ] 시계열 문제
+- [x] 시계열 문제([Prophet 활용 주가 예측](https://github.com/financedata-org/FinanceDataReader), [서울시 코로나 19 확진자 현황](https://data.seoul.go.kr/dataList/OA-20279/S/1/datasetView.do))
 
 ### 참고한 GitHub Repository
 - [sigmadream/practice-analysis](https://github.com/sigmadream/practice-analysis)
